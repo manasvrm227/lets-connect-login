@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+//@EnableJpaRepositories(basePackageClasses = UserRepository.class,)
 public class LetsConnectLoginApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LetsConnectLoginApplication.class, args);

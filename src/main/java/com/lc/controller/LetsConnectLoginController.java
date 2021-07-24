@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lc.dto.UserDto;
 import com.lc.model.User;
 import com.lc.service.LetsConnectLoginService;
 import com.lc.util.LetsConnectLoginCache;
@@ -35,6 +34,10 @@ public class LetsConnectLoginController {
 	public String homeUser() {
 		return "LetsConnect User Login";
 	}
+	
+	/*
+	 * Dto to entity not working.
+	 */
 	
 //	@PostMapping("/register")
 //	public Map<String, String> registerUser(@RequestBody UserDto userDto) throws Exception {
